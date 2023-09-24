@@ -1,0 +1,3 @@
+This tests if project multiplicity is exceeded.
+Even though many staff3 has high load and all students going for 
+his/her project, it cannot be allocated to more than 3 students.

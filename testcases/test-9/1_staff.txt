@@ -1,0 +1,4 @@
+staff1 4
+staff2 4
+staff3 2
+staff4 1

@@ -1,0 +1,4 @@
+This tests if loads of supervisors are exceeded.
+Even though staff2's project is very popular and has high multiplicity,
+it cannot be allocated to more than 2 students.
+(Also shows students (and all others) may not be listed in order.)

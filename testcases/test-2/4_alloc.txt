@@ -1,0 +1,6 @@
+stu1 3
+stu2 3
+stu3 3
+stu4 1
+stu5 2
+18

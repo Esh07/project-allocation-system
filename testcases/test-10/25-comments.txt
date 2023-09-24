@@ -1,0 +1,2 @@
+In this example all staff have load 1 (so even though multiplicities can be
+>1 it is irrelevant)

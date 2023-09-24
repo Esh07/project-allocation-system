@@ -1,0 +1,11 @@
+stu0 1
+stu1 2
+stu2 3
+stu3 4
+stu4 5
+stu5 6
+stu6 7
+stu7 8
+stu8 9
+stu9 10
+31

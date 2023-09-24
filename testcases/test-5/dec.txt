@@ -1,0 +1,3 @@
+This is same as test case 4 but with 1 fewer staff and 1 fewer project,
+showing the (rare) occasion that there are not enough projects around
+and so some student may be allocated no project.

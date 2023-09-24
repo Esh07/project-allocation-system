@@ -1,0 +1,26 @@
+stu1 4
+stu10 31
+stu11 17
+stu12 2
+stu13 42
+stu14 32
+stu15 16
+stu16 9
+stu17 34
+stu18 30
+stu19 8
+stu2 3
+stu20 21
+stu21 29
+stu22 48
+stu23 44
+stu24 20
+stu25 49
+stu3 6
+stu4 23
+stu5 37
+stu6 15
+stu7 27
+stu8 46
+stu9 38
+96

@@ -1,0 +1,1 @@
+In this example all projects have a multiplicity of 1.

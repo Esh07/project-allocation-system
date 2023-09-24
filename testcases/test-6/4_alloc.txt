@@ -1,0 +1,9 @@
+a123456 7
+aaaaaa1 3
+abcxyz1 7
+def45 2
+gh678 2
+ij9 7
+kl00 6
+sue 7
+26

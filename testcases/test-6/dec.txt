@@ -1,0 +1,2 @@
+An example with un-sorted staff/student/projects, and that
+not all students making 4 choices.

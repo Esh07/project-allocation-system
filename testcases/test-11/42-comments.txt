@@ -1,0 +1,4 @@
+modified random instance so staff with high loads propose few projects/
+small multiplicities and vice versa. As a result a lot of students
+don't get allocated, even though the total staff load / total project
+multiplicity are each (almost) enough for the number of students.

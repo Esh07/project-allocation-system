@@ -1,0 +1,8 @@
+staff1 2
+staff2 8
+staff3 2
+staff4 8
+staff5 2
+staff6 8
+staff7 2
+staff8 8
