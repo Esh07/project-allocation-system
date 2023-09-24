@@ -1,0 +1,29 @@
+# Specify G++ compiler to use for compiling the code
+CXX = g++
+
+# currently Uni linix has gcc 11 so it's support c++17 as well. 
+# Specify options to pass to the compiler. Here it sets the optimisation
+# level, outputs debugging info for gdb, and C++ version to use.
+CXXFLAGS = -O0 -g3 -std=c++17
+
+# if "make All" is type then ultimaltely "make all" will. this is for flexibility
+All: all
+# The default target to build is "GenAlloc"
+all: GenAlloc
+# The "GenAlloc" target depends on the object files "main.o", "supervisor.o", "project.o", and "student.o"
+GenAlloc: main.o allocation.o
+    $(CXX) main.o allocation.o -o GenAlloc
+
+# The "main.o" object file depends on "main.cpp" and the header "supervisor.h"
+main.o: main.cpp allocation.h
+    $(CXX) $(CXXFLAGS) -c main.cpp
+
+# The "allocation.o" object file depends on "allocation.cpp" and the header "allocation.h"
+allocation.o: allocation.cpp allocation.h
+    $(CXX) $(CXXFLAGS) -c allocation.cpp 
+
+deepclean:
+    rm -f *~ *.o GenAlloc GenAlloc.exe *.stackdump # clean up and remove all files with this extension""~", ".o", ".stackdump", and the executable "GenAlloc"
+
+clean:
+    rm -f *~ *.o *.stackdump # clean up and remove all files with this extension"~", ".o", and ".stackdump" from the directory
