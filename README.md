@@ -58,7 +58,7 @@ My system uses a greedy algorithm to solve the project allocation system problem
 ### Program Input and Output
 
 ```bash
-/GenAlloc staff.txt projects.txt students.txt alloc.txt
+./GenAlloc staff.txt projects.txt students.txt alloc.txt
 ```
 
 All three input files are text files, each consisting of a number of lines. Each line represents a supervisor/project/student, and contains a number of fields separated by whitespace, as follows:
@@ -102,7 +102,7 @@ git clone https://github.com/Esh07/project-allocation-system
 To compile the program, run the following command in the root directory of the project:
 
 ```yaml
-$ make
+make
 ```
 
 > This will create an executable file named `GenAlloc` in the root directory of the project.
