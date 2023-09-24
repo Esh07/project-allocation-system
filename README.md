@@ -101,7 +101,7 @@ git clone https://github.com/Esh07/project-allocation-system
 
 To compile the program, run the following command in the root directory of the project:
 
-```yaml
+```bash
 make
 ```
 
