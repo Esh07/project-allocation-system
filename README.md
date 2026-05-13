@@ -1,4 +1,17 @@
-# Project Allocation System
+<div align="center">
+  
+# 🎯 Project Allocation System
+
+**A C++17 greedy allocation engine for constraint-based student-to-project assignment**
+
+[![C++17](https://img.shields.io/badge/C++-17-00599C?logo=cplusplus&logoColor=white)](https://cppreference.com)
+[![Build](https://img.shields.io/badge/Build-Makefile-A8B9CC)](https://www.gnu.org/software/make/)
+[![GCC](https://img.shields.io/badge/GCC-%2011-2E8B57?logo=gnu&logoColor=white)](https://gcc.gnu.org/gcc-11/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+</div>
+
+---
 
 This repository contains my implementation of a project allocation system using a greedy algorithm to solve the assignment in the CO3105/4105/7105 Advanced C++ Programming module at the University of Leicester.
 
