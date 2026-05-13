@@ -11,33 +11,26 @@
 
 </div>
 
----
-
-This repository contains my implementation of a project allocation system using a greedy algorithm to solve the assignment in the CO3105/4105/7105 Advanced C++ Programming module at the University of Leicester.
 
 ## Overview
 
-A C++17 command-line allocation engine that assigns students to projects 
-while respecting project capacity, supervisor load limits, and student 
-preference constraints using a greedy algorithm strategy.
+A command-line allocation engine that assigns students to projects while satisfying hard constraints: project capacity limits, supervisor load limits, and student preference rankings.
 
-Includes 13 test cases, documented input/output formats, and Makefile targets.
+Built in C++17 using a greedy algorithm strategy, with 13 documented test cases and a structured Makefile for building and running.
 
+## ⚙️ How It Works
 
-- [Project Allocation System](#project-allocation-system)
-  - [Problem](#problem)
-    - [Constraints](#constraints)
-    - [Scoring](#scoring)
-    - [Solution](#solution)
-    - [Program Input and Output](#program-input-and-output)
-    - [Results](#results)
-  - [Documentation](#documentation)
-    - [Requirements](#requirements)
-    - [Get project locally](#get-project-locally)
-    - [Compilation](#compilation)
-    - [Execution (With your own input files)](#execution-with-your-own-input-files)
-    - [Test cases](#test-cases)
-    - [Clean](#clean)
+- Input:
+  - Students file
+  - Projects file
+  - optional existing allocation
+- Algorithm
+  - Greedy:
+    - prioritise by preference rank, then capacity, then supervisor load
+  - Constraints:
+    - Project capacity, supervisor load limits, student preference satisfaction
+- Output
+  - Allocation result written to output file
 
 <details>
 <summary>Detailed Problem Description</summary>
@@ -99,17 +92,12 @@ The four files must be in this order in the command line arguments (staff, proje
 
 </details>
 
-### Results
 
-My system was able to produce legal and locally optimal allocations for all of the sample input files provided. I also tested my system on a number of larger input files and achieved good results.
-
-My implementation of the project allocation system is written in C++ and uses a variety of advanced C++ features, such as templates, classes, and object-oriented programming. I also used a makefile to automate the build and test process.
-
-## Documentation
+## Getting Started
 
 ### Requirements
 
-:warning: At least, `gcc 11` is required to compile this program.
+> :warning: At least, `gcc 11` is required to compile this program.
 
 I have used `C++17` (-std=c++17) STL features in this program (only those that are supported by gcc 11).
 
@@ -158,7 +146,7 @@ make testcase-<testcase-number> # - e.g. make testcase-1
 
 After running the test case, an output file alloc.txt is generated in the project’s root directory. This can be compared with the expected output in testcase-\<testcase-number>/4_alloc.txt.
 
-## Clean
+### Clean cache/obj files
 
 To clean the object files only, run the following command in the root directory of the project:
 
@@ -171,3 +159,7 @@ To clean the object files and the executable file, run the following command in 
 ```bash
 make deepclean  #- clean project and remove object files and executable files
 ```
+
+## 📋 Project Status
+Coursework Archive Demonstrates C++17, greedy algorithm design, constraint satisfaction, file I/O, and structured Makefile usage. 
+
