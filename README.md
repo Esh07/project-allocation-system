@@ -2,6 +2,15 @@
 
 This repository contains my implementation of a project allocation system using a greedy algorithm to solve the assignment in the CO3105/4105/7105 Advanced C++ Programming module at the University of Leicester.
 
+## Overview
+
+A C++17 command-line allocation engine that assigns students to projects 
+while respecting project capacity, supervisor load limits, and student 
+preference constraints using a greedy algorithm strategy.
+
+Includes 13 test cases, documented input/output formats, and Makefile targets.
+
+
 - [Project Allocation System](#project-allocation-system)
   - [Problem](#problem)
     - [Constraints](#constraints)
